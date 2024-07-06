@@ -1,12 +1,4 @@
-using System;
-
-class Program
+static void Solve()
 {
-    static int N = 8;
-    static int[] position = new int[N];
-
-    static void Main(string[] args)
-    {
-        Solve();
-    }
+    PutQueen(position, 0);
 }
